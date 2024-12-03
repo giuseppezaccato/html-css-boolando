@@ -199,3 +199,35 @@ footer .banner {
 .showoff:hover .model6 {
     display: none;
 }
+
+/* tentativo NON funzionante
+
+.showoff :nth-child(2) {
+    display: none;
+}
+
+.showoff:hover :nth-child(2) {
+    display: block;
+}
+
+.showoff:hover :first-child {
+    display: none;
+} */
+
+/* II tentativo NON funzionante con position 
+absolute dato che .showoff ha gia position relative
+ma scompare l'etichetta .green*/
+
+/* .showoff :nth-child(2) {
+    position: absolute;
+    top: 0;
+    display: none;
+}
+
+.showoff:hover :nth-child(2) {
+    display: inline-block;
+}
+
+.showoff:hover :first-child {
+    display: none;
+} */
