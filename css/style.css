@@ -23,7 +23,10 @@
 }
 
 .icons {
+    display: flex;
     fill: white;
+    width: 10%;
+    gap: 10px;
 
 }
 
@@ -39,7 +42,6 @@ img {
 .showcase {
     display: flex;
     flex-wrap: wrap;
-    /* flex-grow: 1; */
     gap: 20px;
     justify-content: center;
     padding: 5% 10%;
@@ -67,15 +69,14 @@ img {
 }
 
 .like {
-    font-size: 50px;
+    font-size: 40px;
     width: 50px;
     aspect-ratio: 1;
     text-align: center;
-
     color: #000000;
     background-color: rgb(255, 255, 255);
     position: absolute;
-    top: 50px;
+    top: 20px;
     right: 0;
 }
 
@@ -107,4 +108,9 @@ img {
 
 .discount {
     text-decoration: line-through;
+}
+
+footer .banner {
+    background-color: #000000;
+    height: 20vh;
 }
