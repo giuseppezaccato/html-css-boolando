@@ -1,0 +1,45 @@
+* {
+    font-family: sans-serif;
+    font-weight: 700;
+}
+
+.banner {
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 10vh;
+    background-color: #FF6900;
+    color: white;
+}
+
+#logo {
+    text-align: center;
+    width: 30%;
+    margin: 0 auto;
+    display: block;
+}
+
+.icons {
+    fill: white;
+}
+
+.showoff {
+    position: relative;
+}
+
+.label {
+    height: 25px;
+    display: flex;
+    gap: 5px;
+    position: absolute;
+    bottom: 50px;
+}
+
+.green {
+    background-color: green;
+}
+
+.red {
+    background-color: red;
+}
