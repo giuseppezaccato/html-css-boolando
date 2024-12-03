@@ -4,8 +4,13 @@ body {
 
 }
 
-.banner {
+header {
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
 
+.banner {
     display: flex;
     justify-content: space-around;
     align-items: center;
