@@ -37,6 +37,7 @@ header {
 
 img {
     width: 100%;
+    display: block;
 }
 
 .showcase {
@@ -117,8 +118,6 @@ img {
 footer .banner {
     background-color: #000000;
     height: 20vh;
-    padding-inline: 10%;
-    justify-content: space-between
 }
 
 .footcontainer .icons {
@@ -133,7 +132,7 @@ footer .banner {
 }
 
 .showoff:hover .model1b {
-    display: inline-block;
+    display: block;
 }
 
 .showoff:hover .model1 {
@@ -145,7 +144,7 @@ footer .banner {
 }
 
 .showoff:hover .model2b {
-    display: inline-block;
+    display: block;
 }
 
 .showoff:hover .model2 {
@@ -157,7 +156,7 @@ footer .banner {
 }
 
 .showoff:hover .model3b {
-    display: inline-block;
+    display: block;
 }
 
 .showoff:hover .model3 {
@@ -169,7 +168,7 @@ footer .banner {
 }
 
 .showoff:hover .model4b {
-    display: inline-block;
+    display: block;
 }
 
 .showoff:hover .model4 {
@@ -181,7 +180,7 @@ footer .banner {
 }
 
 .showoff:hover .model5b {
-    display: inline-block;
+    display: block;
 }
 
 .showoff:hover .model5 {
@@ -193,7 +192,7 @@ footer .banner {
 }
 
 .showoff:hover .model6b {
-    display: inline-block;
+    display: block;
 }
 
 .showoff:hover .model6 {
@@ -201,31 +200,12 @@ footer .banner {
 }
 
 /* tentativo NON funzionante
-
 .showoff :nth-child(2) {
     display: none;
 }
 
 .showoff:hover :nth-child(2) {
     display: block;
-}
-
-.showoff:hover :first-child {
-    display: none;
-} */
-
-/* II tentativo NON funzionante con position 
-absolute dato che .showoff ha gia position relative
-ma scompare l'etichetta .green*/
-
-/* .showoff :nth-child(2) {
-    position: absolute;
-    top: 0;
-    display: none;
-}
-
-.showoff:hover :nth-child(2) {
-    display: inline-block;
 }
 
 .showoff:hover :first-child {
