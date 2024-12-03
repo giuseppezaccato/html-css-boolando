@@ -1,6 +1,7 @@
 * {
     font-family: sans-serif;
     font-weight: 700;
+
 }
 
 .banner {
@@ -8,9 +9,10 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    height: 10vh;
+    height: 8vh;
     background-color: #FF6900;
     color: white;
+    border-style: none;
 }
 
 #logo {
@@ -22,7 +24,35 @@
 
 .icons {
     fill: white;
+
 }
+
+main {
+    padding: 10px;
+
+}
+
+img {
+    width: 100%;
+}
+
+.showcase {
+    display: flex;
+    flex-wrap: wrap;
+    /* flex-grow: 1; */
+    gap: 20px;
+    justify-content: center;
+    padding: 5% 10%;
+}
+
+.product {
+    flex-basis: calc(90% / 3);
+    flex-wrap: wrap;
+}
+
+
+
+
 
 .showoff {
     position: relative;
@@ -31,15 +61,37 @@
 .label {
     height: 25px;
     display: flex;
+    align-items: center;
+    line-height: 160%;
     gap: 5px;
     position: absolute;
     bottom: 50px;
+
+}
+
+.like {
+    font-size: 50px;
+    width: 50px;
+    aspect-ratio: 1;
+    text-align: center;
+
+    color: #000000;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    top: 50px;
+    right: 0;
 }
 
 .green {
     background-color: green;
+    padding: 5px;
 }
 
 .red {
     background-color: red;
+    padding: 5px;
+}
+
+.caption {
+    color: #000000;
 }
