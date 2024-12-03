@@ -115,3 +115,78 @@ footer .banner {
 .footcontainer .icons {
     width: 100%;
 }
+
+
+/* BOOOOONUS */
+
+.model1b {
+    display: none;
+}
+
+.showoff:hover .model1b {
+    display: inline-block;
+}
+
+.showoff:hover .model1 {
+    display: none;
+}
+
+.two .model2b {
+    display: none;
+}
+
+.showoff:hover .model2b {
+    display: inline-block;
+}
+
+.showoff:hover .model2 {
+    display: none;
+}
+
+.three .model3b {
+    display: none;
+}
+
+.showoff:hover .model3b {
+    display: inline-block;
+}
+
+.showoff:hover .model3 {
+    display: none;
+}
+
+.four .model4b {
+    display: none;
+}
+
+.showoff:hover .model4b {
+    display: inline-block;
+}
+
+.showoff:hover .model4 {
+    display: none;
+}
+
+.five .model5b {
+    display: none;
+}
+
+.showoff:hover .model5b {
+    display: inline-block;
+}
+
+.showoff:hover .model5 {
+    display: none;
+}
+
+.six .model6b {
+    display: none;
+}
+
+.showoff:hover .model6b {
+    display: inline-block;
+}
+
+.showoff:hover .model6 {
+    display: none;
+}
