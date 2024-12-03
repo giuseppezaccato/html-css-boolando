@@ -1,4 +1,4 @@
-* {
+body {
     font-family: sans-serif;
     font-weight: 700;
 
@@ -25,15 +25,11 @@
 .icons {
     display: flex;
     fill: white;
-    width: 10%;
+    width: 5%;
     gap: 10px;
 
 }
 
-main {
-    padding: 10px;
-
-}
 
 img {
     width: 100%;
@@ -49,7 +45,6 @@ img {
 
 .product {
     flex-basis: calc(90% / 3);
-    flex-wrap: wrap;
 }
 
 .showoff {
@@ -113,4 +108,10 @@ img {
 footer .banner {
     background-color: #000000;
     height: 20vh;
+    padding-inline: 10%;
+    justify-content: space-between
+}
+
+.footcontainer .icons {
+    width: 100%;
 }
