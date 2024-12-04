@@ -1,10 +1,11 @@
 body {
     font-family: sans-serif;
     font-weight: 700;
-
 }
 
 header {
+    background-color: #FF6900;
+    padding: 20px 0;
     position: sticky;
     top: 0;
     z-index: 1;
@@ -12,10 +13,11 @@ header {
 
 .banner {
     display: flex;
-    justify-content: space-around;
+    max-width: 80%;
+    margin: 0 auto;
+    justify-content: space-between;
     align-items: center;
     height: 8vh;
-    background-color: #FF6900;
     color: white;
     border-style: none;
 }
@@ -28,11 +30,11 @@ header {
 }
 
 .icons {
-    display: flex;
-    fill: white;
-    width: 5%;
     gap: 10px;
-
+    /* non necessario post libreria perchè le i vengono considerate 
+    al pari di font, quindi gia bianche e grandi 16px(font size) */
+    /* fill: white;
+    width: 5%; */
 }
 
 img {
@@ -44,7 +46,7 @@ img {
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
-    justify-content: center;
+    justify-content: space-between;
     padding: 5% 10%;
 }
 
@@ -70,10 +72,9 @@ img {
 
 .like {
     font-size: 40px;
-    width: 50px;
-    aspect-ratio: 1;
-    text-align: center;
-    color: #000000;
+    padding: 5px;
+    /* non necessario per il discorso libreria di prima */
+    /* color: #000000; */
     background-color: rgb(255, 255, 255);
     position: absolute;
     top: 20px;
@@ -88,6 +89,7 @@ img {
 .green {
     background-color: green;
     padding: 5px;
+    text-transform: capitalize;
 }
 
 .red {
@@ -115,8 +117,12 @@ img {
     text-decoration: line-through;
 }
 
-footer .banner {
+footer {
     background-color: #000000;
+
+}
+
+footer .banner {
     height: 20vh;
 }
 
@@ -125,89 +131,19 @@ footer .banner {
 }
 
 
+/* tentativo NON funzionante, riprova dando img:nth-child(2),
+ok COSì FUNZIONA!!! lascio commentato tutto comunque */
+
 /* BOOOOONUS 1*/
 
-.model1b {
+.showoff img:nth-child(2) {
     display: none;
 }
 
-.showoff:hover .model1b {
+.showoff:hover img:nth-child(2) {
     display: block;
 }
 
-.showoff:hover .model1 {
+.showoff:hover img:first-child {
     display: none;
 }
-
-.two .model2b {
-    display: none;
-}
-
-.showoff:hover .model2b {
-    display: block;
-}
-
-.showoff:hover .model2 {
-    display: none;
-}
-
-.three .model3b {
-    display: none;
-}
-
-.showoff:hover .model3b {
-    display: block;
-}
-
-.showoff:hover .model3 {
-    display: none;
-}
-
-.four .model4b {
-    display: none;
-}
-
-.showoff:hover .model4b {
-    display: block;
-}
-
-.showoff:hover .model4 {
-    display: none;
-}
-
-.five .model5b {
-    display: none;
-}
-
-.showoff:hover .model5b {
-    display: block;
-}
-
-.showoff:hover .model5 {
-    display: none;
-}
-
-.six .model6b {
-    display: none;
-}
-
-.showoff:hover .model6b {
-    display: block;
-}
-
-.showoff:hover .model6 {
-    display: none;
-}
-
-/* tentativo NON funzionante
-.showoff :nth-child(2) {
-    display: none;
-}
-
-.showoff:hover :nth-child(2) {
-    display: block;
-}
-
-.showoff:hover :first-child {
-    display: none;
-} */
